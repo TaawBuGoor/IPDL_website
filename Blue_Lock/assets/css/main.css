@@ -346,9 +346,27 @@ h6 {
 
 .footer .footer-links {
   margin: 30px 0px;
-  display: grid;
-  place-content: center;
-  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .footer-links{
+    display: grid;
+    place-content: center;
+    width: 100%;
+  }
+  .footer-contact{
+    display: grid;
+    place-content: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 300px) {
+  .footer-links{
+    display: grid;
+    place-content: center;
+    width: 100%;
+  }
 }
 
 .footer .footer-links ul {
@@ -482,6 +500,16 @@ h6 {
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
+  }
+  .footer-links{
+    display: grid;
+    place-content: center;
+    width: 100%;
+  }
+  .footer-contact{
+    display: grid;
+    place-content: center;
+    width: 100%;
   }
 }
 
